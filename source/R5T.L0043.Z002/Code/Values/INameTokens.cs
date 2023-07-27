@@ -11,7 +11,7 @@ namespace R5T.L0043.Z002
     [ValuesMarker]
     public partial interface INameTokens : IValuesMarker
     {
-        public INameToken Construction => Instances.Words.Construction.Value.ToNameToken();
-        public INameToken Private => Instances.Words.Private.Value.ToNameToken();
+        public INameToken Construction => "Construction".ToNameToken();
+        public INameToken Private => "Private".ToNameToken();
     }
 }

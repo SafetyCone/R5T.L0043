@@ -1,6 +1,6 @@
 using System;
 
-using R5T.T0178;
+using R5T.T0178; /// <see cref="R5T.T0178.Documentation"/>
 
 
 namespace R5T.L0043.T000
