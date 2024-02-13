@@ -89,7 +89,7 @@ namespace R5T.L0043.F000
         {
             // Remove trailing token separators from all tokens, except the last, which is allowed to have a trailing token.
             var endTrimmedNameTokenValues = nameTokens
-                .ExceptLast()
+                .Except_Last()
                 .Select(x => x.Value.Trim_End(nameTokenSeparator.Value))
                 .Append(nameTokens.Last().Value)
                 .Now();
